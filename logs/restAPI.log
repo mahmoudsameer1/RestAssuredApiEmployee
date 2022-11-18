@@ -1,0 +1,129 @@
+2022-11-16 23:46:09 INFO  EmployeesRestAPI:18 - *** Strat TC001_Get_All_Employee **** 
+2022-11-16 23:46:14 INFO  EmployeesRestAPI:110 - **** Checking Content Encoding ****
+2022-11-16 23:46:14 INFO  EmployeesRestAPI:113 - Content Encoding==>gzip
+2022-11-16 23:46:14 INFO  EmployeesRestAPI:120 - **** Checking Content Lenght ****
+2022-11-16 23:46:14 INFO  EmployeesRestAPI:123 - Content Length==>null
+2022-11-16 23:46:14 INFO  EmployeesRestAPI:90 - **** Checking Content Type ****
+2022-11-16 23:46:14 INFO  EmployeesRestAPI:93 - Content Type==>application/json
+2022-11-16 23:46:14 INFO  EmployeesRestAPI:134 - **** Checking Cookies ****
+2022-11-16 23:46:14 INFO  EmployeesRestAPI:30 - **** Checking Response Body ****
+2022-11-16 23:46:14 INFO  EmployeesRestAPI:33 - Response Body==>{"status":"success","data":[{"id":1,"employee_name":"Tiger Nixon","employee_salary":320800,"employee_age":61,"profile_image":""},{"id":2,"employee_name":"Garrett Winters","employee_salary":170750,"employee_age":63,"profile_image":""},{"id":3,"employee_name":"Ashton Cox","employee_salary":86000,"employee_age":66,"profile_image":""},{"id":4,"employee_name":"Cedric Kelly","employee_salary":433060,"employee_age":22,"profile_image":""},{"id":5,"employee_name":"Airi Satou","employee_salary":162700,"employee_age":33,"profile_image":""},{"id":6,"employee_name":"Brielle Williamson","employee_salary":372000,"employee_age":61,"profile_image":""},{"id":7,"employee_name":"Herrod Chandler","employee_salary":137500,"employee_age":59,"profile_image":""},{"id":8,"employee_name":"Rhona Davidson","employee_salary":327900,"employee_age":55,"profile_image":""},{"id":9,"employee_name":"Colleen Hurst","employee_salary":205500,"employee_age":39,"profile_image":""},{"id":10,"employee_name":"Sonya Frost","employee_salary":103600,"employee_age":23,"profile_image":""},{"id":11,"employee_name":"Jena Gaines","employee_salary":90560,"employee_age":30,"profile_image":""},{"id":12,"employee_name":"Quinn Flynn","employee_salary":342000,"employee_age":22,"profile_image":""},{"id":13,"employee_name":"Charde Marshall","employee_salary":470600,"employee_age":36,"profile_image":""},{"id":14,"employee_name":"Haley Kennedy","employee_salary":313500,"employee_age":43,"profile_image":""},{"id":15,"employee_name":"Tatyana Fitzpatrick","employee_salary":385750,"employee_age":19,"profile_image":""},{"id":16,"employee_name":"Michael Silva","employee_salary":198500,"employee_age":66,"profile_image":""},{"id":17,"employee_name":"Paul Byrd","employee_salary":725000,"employee_age":64,"profile_image":""},{"id":18,"employee_name":"Gloria Little","employee_salary":237500,"employee_age":59,"profile_image":""},{"id":19,"employee_name":"Bradley Greer","employee_salary":132000,"employee_age":41,"profile_image":""},{"id":20,"employee_name":"Dai Rios","employee_salary":217500,"employee_age":35,"profile_image":""},{"id":21,"employee_name":"Jenette Caldwell","employee_salary":345000,"employee_age":30,"profile_image":""},{"id":22,"employee_name":"Yuri Berry","employee_salary":675000,"employee_age":40,"profile_image":""},{"id":23,"employee_name":"Caesar Vance","employee_salary":106450,"employee_age":21,"profile_image":""},{"id":24,"employee_name":"Doris Wilder","employee_salary":85600,"employee_age":23,"profile_image":""}],"message":"Successfully! All records has been fetched."}
+2022-11-16 23:46:14 INFO  EmployeesRestAPI:60 - **** Checking Response Time ****
+2022-11-16 23:46:14 INFO  EmployeesRestAPI:63 - Response Time==>1393
+2022-11-16 23:46:14 WARN  EmployeesRestAPI:66 - Response Time is greater than 200
+2022-11-16 23:46:14 INFO  EmployeesRestAPI:100 - **** Checking Server Type ****
+2022-11-16 23:46:14 INFO  EmployeesRestAPI:103 - Server Type==>nginx/1.21.6
+2022-11-16 23:46:14 INFO  EmployeesRestAPI:40 - **** Checking Status Code ****
+2022-11-16 23:46:14 INFO  EmployeesRestAPI:43 - Response Code==>200
+2022-11-16 23:46:14 WARN  EmployeesRestAPI:52 - Status code is equals than 200
+2022-11-16 23:46:14 INFO  EmployeesRestAPI:80 - **** Checking Status Line ****
+2022-11-16 23:46:14 INFO  EmployeesRestAPI:83 - Response Line==>HTTP/1.1 200 OK
+2022-11-16 23:46:14 INFO  EmployeesRestAPI:142 - **** Finished TC001_Get_All_Employee ****
+2022-11-16 23:46:14 INFO  EmployeesRestAPI:18 - *** Strat TC001_Get_Signle_Employee **** 
+2022-11-16 23:46:18 INFO  EmployeesRestAPI:108 - **** Checking Content Encoding ****
+2022-11-16 23:46:18 INFO  EmployeesRestAPI:111 - Content Encoding==>null
+2022-11-16 23:46:18 INFO  EmployeesRestAPI:118 - **** Checking Content Lenght ****
+2022-11-16 23:46:18 INFO  EmployeesRestAPI:121 - Content Length==>77
+2022-11-16 23:46:18 WARN  EmployeesRestAPI:124 - Content Length is less than 100
+2022-11-16 23:46:18 INFO  EmployeesRestAPI:88 - **** Checking Content Type ****
+2022-11-16 23:46:18 INFO  EmployeesRestAPI:91 - Content Type==>application/json
+2022-11-16 23:46:18 INFO  EmployeesRestAPI:138 - **** Checking Cookies ****
+2022-11-16 23:46:18 INFO  EmployeesRestAPI:30 - **** Checking Response Body ****
+2022-11-16 23:46:18 INFO  EmployeesRestAPI:33 - Response Body==>{"message":"Error Occured! Page Not found, contact rstapi2example@gmail.com"}
+2022-11-16 23:46:18 INFO  EmployeesRestAPI:59 - **** Checking Response Time ****
+2022-11-16 23:46:18 INFO  EmployeesRestAPI:62 - Response Time==>1020
+2022-11-16 23:46:18 WARN  EmployeesRestAPI:65 - Response Time is greater than 200
+2022-11-16 23:46:18 INFO  EmployeesRestAPI:98 - **** Checking Server Type ****
+2022-11-16 23:46:18 INFO  EmployeesRestAPI:101 - Server Type==>nginx/1.21.6
+2022-11-16 23:46:18 INFO  EmployeesRestAPI:40 - **** Checking Status Code ****
+2022-11-16 23:46:18 INFO  EmployeesRestAPI:43 - Response Code==>404
+2022-11-16 23:46:18 WARN  EmployeesRestAPI:46 - Status code is greater than 200
+2022-11-16 23:46:18 INFO  EmployeesRestAPI:78 - **** Checking Status Line ****
+2022-11-16 23:46:18 INFO  EmployeesRestAPI:81 - Response Line==>HTTP/1.1 404 Not Found
+2022-11-16 23:46:18 INFO  EmployeesRestAPI:146 - **** finished TC002_Get_Single_Employees ****
+2022-11-16 23:46:18 INFO  EmployeesRestAPI:28 - *** Started TC003_Post_Employee_Recored **** 
+2022-11-16 23:46:24 INFO  EmployeesRestAPI:129 - **** Checking Content Encoding ****
+2022-11-16 23:46:24 INFO  EmployeesRestAPI:132 - Content Encoding==>null
+2022-11-16 23:46:24 INFO  EmployeesRestAPI:139 - **** Checking Content Lenght ****
+2022-11-16 23:46:24 INFO  EmployeesRestAPI:142 - Content Length==>131
+2022-11-16 23:46:24 WARN  EmployeesRestAPI:148 - Content Length is Greater than 100
+2022-11-16 23:46:24 INFO  EmployeesRestAPI:109 - **** Checking Content Type ****
+2022-11-16 23:46:24 INFO  EmployeesRestAPI:112 - Content Type==>application/json
+2022-11-16 23:46:24 INFO  EmployeesRestAPI:159 - **** Checking Cookies ****
+2022-11-16 23:46:24 INFO  EmployeesRestAPI:49 - **** Checking Response Body ****
+2022-11-16 23:46:24 INFO  EmployeesRestAPI:52 - Response Body==>{"status":"success","data":{"name":"Johnv","salary":"00329","age":"36","id":1530},"message":"Successfully! Record has been added."}
+2022-11-16 23:46:24 INFO  EmployeesRestAPI:80 - **** Checking Response Time ****
+2022-11-16 23:46:24 INFO  EmployeesRestAPI:83 - Response Time==>1020
+2022-11-16 23:46:24 WARN  EmployeesRestAPI:86 - Response Time is greater than 200
+2022-11-16 23:46:24 INFO  EmployeesRestAPI:119 - **** Checking Server Type ****
+2022-11-16 23:46:24 INFO  EmployeesRestAPI:122 - Server Type==>Apache
+2022-11-16 23:46:24 INFO  EmployeesRestAPI:61 - **** Checking Status Code ****
+2022-11-16 23:46:24 INFO  EmployeesRestAPI:64 - Response Code==>200
+2022-11-16 23:46:24 INFO  EmployeesRestAPI:99 - **** Checking Status Line ****
+2022-11-16 23:46:24 INFO  EmployeesRestAPI:102 - Response Line==>HTTP/1.1 200 OK
+2022-11-16 23:46:24 INFO  EmployeesRestAPI:167 - **** Finished TC003_Post_Employee_Recored ****
+2022-11-16 23:46:24 INFO  EmployeesRestAPI:28 - *** Started TC004_Put_Employee_Recored **** 
+2022-11-16 23:46:30 INFO  EmployeesRestAPI:129 - **** Checking Content Encoding ****
+2022-11-16 23:46:30 INFO  EmployeesRestAPI:132 - Content Encoding==>null
+2022-11-16 23:46:30 INFO  EmployeesRestAPI:139 - **** Checking Content Lenght ****
+2022-11-16 23:46:30 INFO  EmployeesRestAPI:142 - Content Length==>123
+2022-11-16 23:46:30 WARN  EmployeesRestAPI:148 - Content Length is Greater than 100
+2022-11-16 23:46:30 INFO  EmployeesRestAPI:109 - **** Checking Content Type ****
+2022-11-16 23:46:30 INFO  EmployeesRestAPI:112 - Content Type==>application/json
+2022-11-16 23:46:30 INFO  EmployeesRestAPI:159 - **** Checking Cookies ****
+2022-11-16 23:46:30 INFO  EmployeesRestAPI:49 - **** Checking Response Body ****
+2022-11-16 23:46:30 INFO  EmployeesRestAPI:52 - Response Body==>{"status":"success","data":{"name":"JohnU","salary":"99279","age":"45"},"message":"Successfully! Record has been updated."}
+2022-11-16 23:46:30 INFO  EmployeesRestAPI:80 - **** Checking Response Time ****
+2022-11-16 23:46:30 INFO  EmployeesRestAPI:83 - Response Time==>813
+2022-11-16 23:46:30 WARN  EmployeesRestAPI:86 - Response Time is greater than 200
+2022-11-16 23:46:30 INFO  EmployeesRestAPI:119 - **** Checking Server Type ****
+2022-11-16 23:46:30 INFO  EmployeesRestAPI:122 - Server Type==>Apache
+2022-11-16 23:46:30 INFO  EmployeesRestAPI:61 - **** Checking Status Code ****
+2022-11-16 23:46:30 INFO  EmployeesRestAPI:64 - Response Code==>200
+2022-11-16 23:46:30 INFO  EmployeesRestAPI:99 - **** Checking Status Line ****
+2022-11-16 23:46:30 INFO  EmployeesRestAPI:102 - Response Line==>HTTP/1.1 200 OK
+2022-11-16 23:46:30 INFO  EmployeesRestAPI:167 - **** Finished TC004_Put_Employee_Recored ****
+2022-11-16 23:46:30 INFO  EmployeesRestAPI:26 - *** Started TC005_Delete_Employee_Recored **** 
+2022-11-16 23:46:35 INFO  EmployeesRestAPI:121 - **** Checking Content Encoding ****
+2022-11-16 23:46:35 INFO  EmployeesRestAPI:124 - Content Encoding==>null
+2022-11-16 23:46:35 INFO  EmployeesRestAPI:131 - **** Checking Content Lenght ****
+2022-11-16 23:46:35 INFO  EmployeesRestAPI:134 - Content Length==>825
+2022-11-16 23:46:35 WARN  EmployeesRestAPI:140 - Content Length is Greater than 100
+2022-11-16 23:46:35 INFO  EmployeesRestAPI:101 - **** Checking Content Type ****
+2022-11-16 23:46:35 INFO  EmployeesRestAPI:104 - Content Type==>text/html; charset=UTF-8
+2022-11-16 23:46:35 INFO  EmployeesRestAPI:151 - **** Checking Cookies ****
+2022-11-16 23:46:35 INFO  EmployeesRestAPI:43 - **** Checking Response Body ****
+2022-11-16 23:46:35 INFO  EmployeesRestAPI:46 - Response Body==><!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="robots" content="noindex,nofollow,noarchive" />
+    <title>An Error Occurred: Method Not Allowed</title>
+    <style>body { background-color: #fff; color: #222; font: 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; margin: 0; }
+.container { margin: 30px; max-width: 600px; }
+h1 { color: #dc3545; font-size: 24px; }
+h2 { font-size: 18px; }</style>
+</head>
+<body>
+<div class="container">
+    <h1>Oops! An Error Occurred</h1>
+    <h2>The server returned a "405 Method Not Allowed".</h2>
+
+    <p>
+        Something is broken. Please let us know what you were doing when this error occurred.
+        We will fix it as soon as possible. Sorry for any inconvenience caused.
+    </p>
+</div>
+</body>
+</html>
+2022-11-16 23:46:35 INFO  EmployeesRestAPI:72 - **** Checking Response Time ****
+2022-11-16 23:46:35 INFO  EmployeesRestAPI:75 - Response Time==>778
+2022-11-16 23:46:35 WARN  EmployeesRestAPI:78 - Response Time is greater than 200
+2022-11-16 23:46:35 INFO  EmployeesRestAPI:111 - **** Checking Server Type ****
+2022-11-16 23:46:35 INFO  EmployeesRestAPI:114 - Server Type==>Apache
+2022-11-16 23:46:35 INFO  EmployeesRestAPI:53 - **** Checking Status Code ****
+2022-11-16 23:46:35 INFO  EmployeesRestAPI:56 - Response Code==>405
+2022-11-16 23:46:35 WARN  EmployeesRestAPI:59 - Status code is greater than 200
+2022-11-16 23:46:35 INFO  EmployeesRestAPI:91 - **** Checking Status Line ****
+2022-11-16 23:46:35 INFO  EmployeesRestAPI:94 - Response Line==>HTTP/1.1 405 Method Not Allowed
+2022-11-16 23:46:35 INFO  EmployeesRestAPI:159 - **** Finished TC005_Delete_Employee_Recored ****
