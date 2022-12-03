@@ -3,16 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.employee.testCases.TC004_Put_Employee_Recored">
+      <class name="jssonPath.whitoutInlineAssertionUsinJsonPath">
         <methods>
-          <include name="checkServerType"/>
-          <include name="setup"/>
-          <include name="checkContentType"/>
-          <include name="checkContentEncoding"/>
-          <include name="updateEmployee"/>
-          <include name="tearDown"/>
+          <include name="main"/>
         </methods>
-      </class> <!-- com.employee.testCases.TC004_Put_Employee_Recored -->
+      </class> <!-- jssonPath.whitoutInlineAssertionUsinJsonPath -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
